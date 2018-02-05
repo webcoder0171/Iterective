@@ -1,0 +1,358 @@
+*{
+	font-family: 'Dosis', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+body{
+
+	margin:0;
+	padding:0;
+}
+
+/*
+ Some global element for re Use
+*/
+
+
+a.btn{
+	
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	color: #fff;
+ 	background:linear-gradient(#49007c, #bf0085);
+ 	padding:10px 50px;
+	border-radius: 25px;
+}
+
+a.btn:hover{
+	
+	background:linear-gradient(#bf0085,#49007c);
+}
+
+/* global element css ends*/
+
+
+
+.container{
+
+	width:80%;
+	margin: 0 auto;
+}
+
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header{
+	width:100%;
+	background-image: url("images/bg.jpg");
+	background-size: 100% 100%;
+	background-position: center center;
+
+}
+
+header.header{
+
+}
+.header-top{
+
+}
+
+.header-top .logo{
+	width:25%;
+	float: left;
+	margin-top: 40px;
+}
+
+.header-top .logo h2{
+	
+	margin:0;
+	padding: 0;
+
+}
+
+.header-top .menu{
+	
+	width:75%;
+	float: left;
+
+}
+.header-top .menu ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+	float: right;
+	margin-top: 40px;
+
+}
+.header-top .menu ul li{
+	display: inline-block;
+
+}
+.header-top .menu ul li a{
+	text-decoration: none;
+	display:inline-block;
+	padding:10px 25px;
+	color:#0c0c0c;
+	font-weight: bold;
+	border: 1px solid #606365;
+	transition: 0.5s;
+
+	
+}
+.header-top .menu ul li a:hover{
+
+	background-color:#49007c;
+	color:#fff; 
+}
+
+
+
+.header-middle{
+
+	clear:left;
+	text-align: center;
+	padding-top: 85px;
+	padding-bottom:250px;
+	
+
+}
+
+.header-middle h2{
+	color:#000;
+	font-weight: bold;
+	font-size: 35px;
+	
+}
+
+.header-middle p{
+
+	color:#0c0c0c;
+}
+
+.header-middle > a{
+	margin-top: 40px;
+}
+
+
+
+
+.header-bottom{
+	padding-bottom: 50px;
+	text-align: center;
+}
+.header-bottom p{
+
+	color: #fff;
+}
+
+/* Header css ends*/
+
+/* Under header css starts*/
+
+.under-header{
+	width: 100%;
+}
+.under-header .left p, .under-header .right p{
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+}
+
+.under-header .left{
+	background-image: url("images/bdesign.jpg");
+	background-size: 100% 100%;
+	width:50%;
+	float:left;
+	padding:100px 0;
+	color:#fff;
+	padding-left: 10%;
+	box-sizing: border-box;
+
+	
+}
+.under-header .right{
+	width:50%;
+	float: left;
+	background-image: url("images/bcode.jpg");
+	background-size: 100% 100%;
+	padding:100px 0;
+	color:#fff;
+	padding-right: 10%;
+	padding-left: 5%;
+	box-sizing: border-box;
+}
+
+/* End under header css */
+
+
+/* start what we do section css*/
+
+.what-we-do{
+	width:100%;
+	height:auto;
+	padding:100px 0;
+	
+}
+.what-we-do h2{
+
+	text-align: center;
+	display:table;
+	padding:60px 0;
+	margin: auto;
+}
+.what-we-do .col-1-2{
+	width:47%;
+	float:left;
+	margin:0 1.5%;
+	padding-bottom: 30px;
+
+}
+.what-we-do .col-1-2:nth-child(4){
+	clear:left;
+}
+
+.what-we-do .col-1-2 .icon{
+	float:left;
+	width:20%;
+	margin-right: 5%;
+
+}
+.what-we-do .col-1-2 .icon img{
+	width:100px;
+	height:auto;
+
+
+}
+
+.what-we-do .col-1-2 .details{
+	float:left;
+	width:75%;
+}
+.what-we-do .col-1-2 .details h3{
+	margin-bottom: 10px;
+}
+
+ .what-we-do .col-1-2 .details p{
+ 	width:100%;
+ }
+
+ .what-we-do .button{
+
+ 	clear:left;
+ 	text-align: center;
+ }
+
+ /* what iwe do section css has finised */
+
+
+ /* showcase section css starts */
+ .showcase{
+
+	transition:0.5s;
+ }
+ .showcase .col-1-3{
+ 	width:33.33%;
+ 	float:left;
+ 	height:300px;
+ 	position:relative;
+
+ }
+
+
+
+.showcase .col-1-3:hover:after{
+
+	content: "";
+	display: block;
+	width:100%;
+	height:300px;
+	background: rgba(0, 0, 0, 0.5);
+	position:absolute;
+	top:0;
+	left:0;
+	cursor: pointer;
+}
+
+.showcase .col-1-3 img{
+  	height:300px;
+  	width:100%;
+  	
+  }
+
+/* show case section csws ends */
+
+/* about section css starts */
+
+.about{
+	display: table;
+	padding:100px 0;
+	width:100%;
+	background-image: url("images/sbg.jpg");
+}
+
+.about h1{
+	font-size: 35px;
+	color:#fff;
+}
+.about .heading{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.about .heading p{
+
+	color:#949494;
+}
+.about .col-1-4{
+	width:23%;
+	float: left;
+	margin:0 1%;
+	text-align: center;
+}
+
+.about .col-1-4 .info{
+	
+}
+.about .col-1-4 .info h3{
+	color:#fff;
+}
+.about .col-1-4 .info p{
+	color:#949494;
+}
+.about .button{
+
+	text-align: center;
+}
+.about .button a.btn{
+	margin-top: 60px;
+}
+
+/* end about css  */
+
+/* start map css */
+.map{
+	width:100%;
+	height:auto;
+}
+
+.map iframe{
+	width:100%;
+	height:400px;
+}
+
+/* map section css ends */
+
+footer.footer{
+	background-color: #606365;
+	text-align:center;
+	padding:25px 0;
+}
+footer.footer p{
+	font-weight: bold;
+	color:#fff;
+	letter-spacing: 0.1em;
+}
